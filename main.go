@@ -1,8 +1,8 @@
 package main
 
 import (
-	priority "backend/go-fiber/feature/priority"
-	task "backend/go-fiber/feature/task"
+	priority "backend/go-fiber/core/priority"
+	task "backend/go-fiber/core/task"
 	database "backend/go-fiber/infrastructure/database"
 	smtp "backend/go-fiber/infrastructure/smtp"
 	router "backend/go-fiber/presentation/router"
